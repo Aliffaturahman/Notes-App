@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+
+  box-sizing: border-box;
+}
+
+body{
+  background-image: linear-gradient(to bottom, white, #9290C3);
+  font-family: 'Nunito', sans-serif;
+}
+
+.datas {
+  display: flex;
+  flex-direction: column;
+}
+
+.datas > p {
+  font-size: 25px;
+  font-weight: bold;
+  white-space: nowrap;
+  color: white;
+}
+
+.datas > span {
+  margin-top: 15px;
+  font-size: 15px;
+  color: white;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  white-space: pre-line;
+}
+
+.time {
+  display: flex;
+  position: relative;
+  margin-top: 60px;
+  bottom: 35px;
+  color:white;
+  font-weight: bold;
+}
+
+.time > span {
+  font-size: 14px;
+}
+
+.deleteIcon {
+  position: absolute;
+  right: 0;
+}
+
+.deleteIcon > button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 21px;
+  color: white;
+}
+
+.deleteIcon > button:hover {
+  color: red;
+  transform: scale(1.6); 
+}
